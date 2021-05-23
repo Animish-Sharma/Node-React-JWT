@@ -1,0 +1,11 @@
+/backend/node_modules/
+/backend/.env
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+/backend/package-lock.json
+# testing
+/frontend/coverage
+
+# production
+/frontend/build

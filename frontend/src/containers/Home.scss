@@ -1,0 +1,164 @@
+
+.guest-container{
+    margin:20px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-around;
+
+    .guest-image{
+        margin-right: 10px;
+        padding:0;
+        img{
+            width:500px;
+            height:500px;
+            margin: 0;
+        }
+    }
+    .guest-content{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+        h2{
+            font-family: 'KoHo', sans-serif;
+            font-size: 50px;
+        }
+        p{
+            font-family:'Mate SC',sans-serif;
+            text-align: center;
+            font-size:30px
+        }
+        .guest-links{
+            display:flex;
+            flex-direction:row;
+            .guest-login,
+            .guest-register{
+                display:flex;
+                flex-direction:column;
+                justify-content: center;
+                align-items:center;
+                margin-right: 100px;
+                border:1px solid #ff0000;
+                color:#ff0000;
+                text-decoration: none;
+                border-radius:6px;
+                padding: 10px;
+                font-size:15px;
+                width:100px;
+                height: 28px;
+                transition: all ease 0.3s;
+                font-size:17px;
+            }
+            .guest-register{
+                background-color:#fff;
+                border: 1px solid #9999ff;
+                color: #9999ff;
+            }
+            .guest-login:hover{
+                color: #fff;
+                background-color: #ff0000;
+                border: 3px solid #ff0000;
+                border-radius: 8px;
+                width:120px;
+                height:32px;
+                font-size:20px;
+            }
+            .guest-register:hover{
+                color: #fff;
+                background-color: #9999ff;
+                border: 3px solid #9999ff;
+                border-radius: 8px;
+                width:120px;
+                height:32px;
+                font-size:20px;
+            }
+        }
+    }
+}
+
+.auth-container{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+
+    .auth-image{
+        position: relative;
+        top: 10px;
+        left:20px;
+        flex: 0.5;
+        img{
+            width:500px;
+            height: 500px;
+        }
+    }
+    .auth-content{
+        display: flex;
+        flex-direction:column;
+        flex: 0.5;
+        align-items:center;
+        justify-content: center;
+        h2{
+            font-family: 'KoHo',sans-serif;
+            font-size:3rem;
+            text-align: center;
+        }
+        p{
+            font-family: 'Mate SC',sans-serif;
+            font-size:1.7rem;
+            text-align: center;
+        }
+        .auth-links{
+            display: flex;
+            flex-direction:row;
+            justify-content: space-between;
+            .auth-update,
+            .auth-logout{
+                margin-right: 100px;
+                color: #7596ea;
+                width:170px;
+                height:40px;
+                border: 1px solid #7596ea;
+                text-decoration: none;
+                display: flex;
+                justify-content:center;
+                align-items:center;
+                border-radius: 4px;
+                font-size:20px;
+                transition: all ease .3s;
+            }
+            .auth-logout{
+                color: #071260;
+                border: 1px solid #071260;
+                background-color: #fff;
+            }
+            .auth-update:hover{
+                color: #fff;
+                background-color: #665df5;
+                border: 1px solid #665df5;
+                width:200px;
+                height: 45px;
+                font-size: 22px;
+            }
+            .auth-logout:hover{
+                color: #fff;
+                background-color: #071260;
+                border: 1px solid #071260;
+                width:200px;
+                height: 45px;
+                font-size:22px;
+            }
+        }
+    }
+}
+
+.home-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+    .made-by{
+        font-family: 'Zilla Slab Highlight',sans-serif;
+    }
+}
